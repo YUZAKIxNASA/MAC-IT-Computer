@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d4d8d7;
+  color: white;
+}
+
+header {
+  background-color: #2f3b46;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.company-name {
+  font-size: 18px;
+}
+
+.hero {
+  background-color: #2f3b46;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.subtext {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.cta-button {
+  background-color: white;
+  color: #2f3b46;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.image-placeholder {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-box {
+  width: 100%;
+  height: 250px;
+  background-color: #3e4a56;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+.slider-dots {
+  font-size: 30px;
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.advantages {
+  background-color: #f5f7f6;
+  text-align: center;
+  padding: 60px 20px;
+  color: #333;
+}
+
+.advantages h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.advantages-subtext {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 14px;
+  color: #666;
+}
+
+.advantage-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.advantage-card {
+  width: 150px;
+  height: 200px;
+  background-color: #cbd3d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.learn-more-btn {
+  background-color: #2f3b46;
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.value-proposition {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  color: #333;
+}
+
+.vp-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vp-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.vp-text h2 {
+  font-size: 26px;
+  color: #3a613d;
+  margin-bottom: 16px;
+}
+
+.vp-text p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.vp-points {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.vp-point h4 {
+  font-size: 16px;
+  color: #2f3b46;
+  margin-bottom: 6px;
+}
+
+.vp-point p {
+  font-size: 13px;
+  color: #666;
+}
+
+.vp-image {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.vp-image .image-box {
+  width: 100%;
+  height: 250px;
+  background-color: #aeb5b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.features {
+  background-color: #2f3b46;
+  padding: 60px 20px;
+  color: white;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.video-box {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-placeholder {
+  width: 100%;
+  height: 250px;
+  background-color: #3e4a56;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  color: #ccc;
+  border-radius: 6px;
+}
+
+.features-text {
+  flex: 1;
+  max-width: 500px;
+  padding-left: 20px;
+}
+
+.features-text h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.features-text p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature-item {
+  background-color: #3e4a56;
+  padding: 20px;
+  border-radius: 6px;
+  flex: 1 1 150px;
+  text-align: center;
+  font-size: 14px;
+  color: #eee;
+  min-width: 120px;
+}
+
+.value-proposition .vp-container {
+  display: flex;
+  flex-direction: column; /* Mobile: stack */
+  align-items: center;
+  gap: 20px;
+}
+
+.vp-image {
+  text-align: center;
+}
+
+.vp-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Circle shape */
+  object-fit: cover;
+  background-color: #eee;
+  margin-top: 10px
+}
+
+.vp-text {
+  text-align: center;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .value-proposition .vp-container {
+    flex-direction: row; /* Desktop: side by side */
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .vp-text {
+    width: 60%;
+    text-align: left;
+  }
+
+  .vp-image {
+    width: 40%;
+    text-align: right;
+  }
+}
+
+/* Navigation Bar Styling */
+nav {
+  background-color: #1f2937; /* Dark gray background */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  color: #ffffff; /* White text */
+  text-decoration: none; /* Remove underline */
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00bcd4; /* Light blue on hover */
+}
+
+
+.moveable-text {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+/* Example values — adjust as needed */
+@media (min-width: 768px) {
+  .moveable-text {
+    position: relative;
+    top: -20px; /* Move text up */
+    left: 10px; /* Move text to the right */
+  }
+}
+
+
+.center-section {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.center-section h2 {
+  margin-top: 20px;
+}
+
+.center-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.center-section ul li {
+  margin: 5px 0;
+
+
+/* ======================== */
+
+.advantage-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.advantage-card {
+  width: 180px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.advantage-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.learn-more-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2d3748;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
